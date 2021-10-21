@@ -15,7 +15,7 @@ def reverse(str1):
 user_input = input("Enter anything you would like to reverse: ")
 print(reverse(user_input))
 
-
+# Another Way to do it and more simple
 def reversea(itr):
     return itr[::-1]  # Double colon
 
